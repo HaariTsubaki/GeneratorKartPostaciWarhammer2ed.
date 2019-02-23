@@ -27,6 +27,9 @@ public class Losowanie {
         Random rand = new Random();
         return rand.nextInt((1000 - 1) + 1) + 1;
     }
-
+        // Średni wynik dla Łaska Shallyi
+    public int laskaShallyi() {
+        return 11;
+    }
 
 }
