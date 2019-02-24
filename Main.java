@@ -11,31 +11,44 @@ public class Main {
         //System.out.println(rzut.k20());
         //System.out.println(rzut.k100());
         //System.out.println(rzut.k1000());
-        Rasa rasa = new Rasa();
-        System.out.println("Nazwa rasy: "   + rasa.rasa);
-        System.out.println("Wzrost: "       + rasa.wzrost(false));
-        System.out.println("Waga: "         + rasa.waga());
+        KartaPostaci kartaPostaci = new KartaPostaci();
+        Kalendarium kalendarium = new Kalendarium();
+
+        System.out.println("Nazwa rasy: "   + kartaPostaci.rasa);
+        System.out.println("Wzrost: "       + kartaPostaci.wzrost(false));
+        System.out.println("Waga: "         + kartaPostaci.waga());
+        System.out.println("Kolor Włosów: " + kartaPostaci.kolorWlosow());
+        System.out.println("Kolor Oczu: " + kartaPostaci.kolorOczu());
+        System.out.println("Znaki Szczególne: " + kartaPostaci.znakiSzczegolne());
+        System.out.println("Liczba rodzeństwa: " + kartaPostaci.liczbaRodzenstwa());
+        System.out.println("Znak Gwiezdny: " + kalendarium.znakGwiezdny());
+        System.out.println("Znak Gwiezdny opis: " + kalendarium.znakGwiezdnyFokus());
+        System.out.println("Urodzony w roku: " + kalendarium.rokUrodzin() + " kalendarza Imperium na przełomie " + kalendarium.dataUrodzinDokladna());
+        System.out.println("Wiek: "         + kartaPostaci.wiek());
+        System.out.println(kalendarium.kalendarzFocus(22));
+
+
 
         System.out.println();
 
-        System.out.println("Walka wręcz: "              + rasa.walkaWrecz);
-        System.out.println("Umiejętności strzeleckie: " + rasa.umiejetnosciStrzeleckie);
-        System.out.println("Krzepa: "                   + rasa.krzepa);
-        System.out.println("Odporność: "                + rasa.odpornosc);
-        System.out.println("Zręczność: "                + rasa.zrecznosc);
-        System.out.println("Siła woli: "                + rasa.silaWoli);
-        System.out.println("Inteligencja: "             + rasa.inteligencja);
-        System.out.println("Ogłada: "                   + rasa.oglada);
+        System.out.println("Walka wręcz: "              + kartaPostaci.walkaWrecz);
+        System.out.println("Umiejętności strzeleckie: " + kartaPostaci.umiejetnosciStrzeleckie);
+        System.out.println("Krzepa: "                   + kartaPostaci.krzepa);
+        System.out.println("Odporność: "                + kartaPostaci.odpornosc);
+        System.out.println("Zręczność: "                + kartaPostaci.zrecznosc);
+        System.out.println("Siła woli: "                + kartaPostaci.silaWoli);
+        System.out.println("Inteligencja: "             + kartaPostaci.inteligencja);
+        System.out.println("Ogłada: "                   + kartaPostaci.oglada);
         System.out.println();
 
-        System.out.println("Ataki: "                + rasa.ataki);
-        System.out.println("Żywotność: "            + rasa.zywotnosc);
-        System.out.println("Siła: "                 + rasa.sila);
-        System.out.println("Wytrzymalość: "         + rasa.wytrzymalosc);
-        System.out.println("Szybkość: "             + rasa.szybkosc);
-        System.out.println("Magia: "                + rasa.magia);
-        System.out.println("Punkty Obłędu: "        + rasa.punktyObledu);
-        System.out.println("Punkty przeznaczenia: " + rasa.punktyPrzeznaczenia);
+        System.out.println("Ataki: "                + kartaPostaci.ataki);
+        System.out.println("Żywotność: "            + kartaPostaci.zywotnosc);
+        System.out.println("Siła: "                 + kartaPostaci.sila);
+        System.out.println("Wytrzymalość: "         + kartaPostaci.wytrzymalosc);
+        System.out.println("Szybkość: "             + kartaPostaci.szybkosc);
+        System.out.println("Magia: "                + kartaPostaci.magia);
+        System.out.println("Punkty Obłędu: "        + kartaPostaci.punktyObledu);
+        System.out.println("Punkty przeznaczenia: " + kartaPostaci.punktyPrzeznaczenia);
 
     }
 }

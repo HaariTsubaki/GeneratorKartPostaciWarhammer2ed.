@@ -31,5 +31,21 @@ public class Losowanie {
     public int laskaShallyi() {
         return 11;
     }
+    public int ak8() {
+        Random rand = new Random();
+        return rand.nextInt((8 - 1) + 1) + 1;
+
+    }public int ak12() {
+        Random rand = new Random();
+        return rand.nextInt((12 - 1) + 1) + 1;
+    }
+    public int ak20() {
+        Random rand = new Random();
+        return rand.nextInt((20 - 1) + 1) + 1;
+    }
+    public int ak40() {
+        Random rand = new Random();
+        return rand.nextInt((40 - 1) + 1) + 1;
+    }
 
 }
