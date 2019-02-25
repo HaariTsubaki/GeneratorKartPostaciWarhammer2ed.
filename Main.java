@@ -3,9 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        //for(int i=0; i<5000; i++{
-        ////kod do testowania tutaj
-        //}
+//        for(int i=0; i<5000; i++){
+//        //kod do testowania tutaj
+//        }
         //Losowanie rzut = new Losowanie();
         //System.out.println(rzut.k10());
         //System.out.println(rzut.k20());
@@ -14,19 +14,19 @@ public class Main {
         KartaPostaci kartaPostaci = new KartaPostaci();
         Kalendarium kalendarium = new Kalendarium();
 
-        System.out.println("Nazwa rasy: "   + kartaPostaci.rasa);
-        System.out.println("Wzrost: "       + kartaPostaci.wzrost(false));
-        System.out.println("Waga: "         + kartaPostaci.waga());
-        System.out.println("Kolor Włosów: " + kartaPostaci.kolorWlosow());
-        System.out.println("Kolor Oczu: " + kartaPostaci.kolorOczu());
-        System.out.println("Znaki Szczególne: " + kartaPostaci.znakiSzczegolne());
-        System.out.println("Liczba rodzeństwa: " + kartaPostaci.liczbaRodzenstwa());
-        System.out.println("Znak Gwiezdny: " + kalendarium.znakGwiezdny());
-        System.out.println("Znak Gwiezdny opis: " + kalendarium.znakGwiezdnyFokus());
-        System.out.println("Urodzony w roku: " + kalendarium.rokUrodzin() + " kalendarza Imperium na przełomie " + kalendarium.dataUrodzinDokladna());
-        System.out.println("Wiek: "         + kartaPostaci.wiek());
+        System.out.println("Nazwa rasy: "           + kartaPostaci.rasa);
+        System.out.println("Wzrost: "               + kartaPostaci.wzrost(false));
+        System.out.println("Waga: "                 + kartaPostaci.waga());
+        System.out.println("Kolor Włosów: "         + kartaPostaci.kolorWlosow());
+        System.out.println("Kolor Oczu: "           + kartaPostaci.kolorOczu());
+        System.out.println("Znaki Szczególne: "     + kartaPostaci.znakiSzczegolne());
+        System.out.println("Liczba rodzeństwa: "    + kartaPostaci.liczbaRodzenstwa());
+        System.out.println("Znak Gwiezdny: "        + kalendarium.znakGwiezdny());
+        System.out.println("Znak Gwiezdny opis: "   + kalendarium.znakGwiezdnyFokus());
+        System.out.println("Urodzony w roku: "      + kalendarium.rokUrodzin() + " kalendarza Imperium, " + kalendarium.dataUrodzinDokladna());
+        System.out.println("Wróżba losu: "          + kalendarium.wrozbaLosu());
+        System.out.println("Wiek: "                 + kartaPostaci.wiek());
         System.out.println(kalendarium.kalendarzFocus(22));
-
 
 
         System.out.println();

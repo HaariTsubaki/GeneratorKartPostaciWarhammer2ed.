@@ -3,8 +3,9 @@ package com.company;
 public class KartaPostaci {
     //Człowiek, Niziołek, Krasnolud, Elf (PG, DS, RG)
     //Wybrany, Silny, Pospolity (DRS)
-    //Pomiot Chaosu, Gor, Bestiogor, Minotaur, Centigor, Rykowiec, Szaman Rykowiec, Ogr, Olbrzym, Troll, Kurganin,
-    // Krasnolud Chaosu, Demon Sługa, Demon Bestia, Pomniejszy Demon,
+    //Pomiot Chaosu, Gor, Bestiogor, Minotaur, Centigor, Rykowiec, Szaman Rykowiec, Ogr, Olbrzym, Troll, Kurganin, (KS)
+    //Krasnolud Chaosu, Demon Sługa, Demon Bestia, Pomniejszy Demon, (KS)
+    //Chowaniec (KM)
 
 
     Losowanie losowanie = new Losowanie();
@@ -315,6 +316,11 @@ public class KartaPostaci {
             return 20;
         }
         return -1;
+    }
+
+    //Przydziela zmienną do zbadania wróżby losu
+    public int wrozbaLosu(){
+        return losowanie.k100();
     }
 
 
