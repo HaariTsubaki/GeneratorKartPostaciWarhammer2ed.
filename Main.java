@@ -13,6 +13,7 @@ public class Main {
         //System.out.println(rzut.k1000());
         KartaPostaci kartaPostaci = new KartaPostaci();
         Kalendarium kalendarium = new Kalendarium();
+        Umiejetnosci umiejetnosci = new Umiejetnosci();
 
         System.out.println("Nazwa rasy: "           + kartaPostaci.rasa);
         System.out.println("Wzrost: "               + kartaPostaci.wzrost(false));
@@ -27,6 +28,10 @@ public class Main {
         System.out.println("Wróżba losu: "          + kalendarium.wrozbaLosu());
         System.out.println("Wiek: "                 + kartaPostaci.wiek());
         System.out.println(kalendarium.kalendarzFocus(22));
+        System.out.println(umiejetnosci.umiejetnosci(5));
+        System.out.println(umiejetnosci.umiejetnosci(0));
+        System.out.println(umiejetnosci.umiejetnosci(2);
+        System.out.println(umiejetnosci.umiejetnosci(10);
 
 
         System.out.println();
