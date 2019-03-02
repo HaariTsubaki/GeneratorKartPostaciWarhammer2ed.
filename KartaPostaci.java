@@ -255,16 +255,19 @@ public class KartaPostaci {
         int rzutDatyUrodzA = losowanie.ak8();
         return rzutDatyUrodzA;
     }
+
     //Przydziela zmienną do zbadania daty urodzenia dla znaku Lancet
     public int dataUrodzB() {
         int rzutDatyUrodzB = losowanie.ak12();
         return rzutDatyUrodzB;
     }
+
     //Przydziela zmienną do zbadania daty dla większości znaków gwiezdnych
     public int dataUrodzC() {
         int rzutDatyUrodzC = losowanie.ak20();
         return rzutDatyUrodzC;
     }
+
     //Przydziela zmienną do zbadania daty urodzenia dla znaku Wół Gnuthus
     public int dataUrodzD() {
         int rzutDatyUrodzD = losowanie.ak40();
@@ -319,9 +322,13 @@ public class KartaPostaci {
     }
 
     //Przydziela zmienną do zbadania wróżby losu
-    public int wrozbaLosu(){
+    public int wrozbaLosu() {
         return losowanie.k100();
     }
+
+    //Przydziela zmienne do zbadania imienia i nazwiska/przydomku
+
+    //Przydziela Umiejętności
 
 
 }
